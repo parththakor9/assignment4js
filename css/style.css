@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif; /* SETS THE FONT STYLE FOR THE PAGE */
+  background-color: #f0f4f8; /* SETS A LIGHT BACKGROUND COLOR */
+  margin: 0; /* REMOVES DEFAULT MARGIN FROM BODY */
+  padding: 0; /* REMOVES DEFAULT PADDING FROM BODY */
+  height: 100vh; /* SETS THE HEIGHT TO FULL VIEWPORT HEIGHT */
+  background-size: cover; /* ENSURES BACKGROUND IMAGE COVERS ENTIRE SCREEN */
+  background-position: center; /* CENTERS THE BACKGROUND IMAGE */
+  transition: background-image 0.5s ease-in-out; /* ADDS SMOOTH TRANSITION FOR BACKGROUND IMAGE CHANGES */
+}
+
+.container {
+  background: rgba(244, 133, 133, 0.9); /* SETS A SEMI-TRANSPARENT RED BACKGROUND */
+  padding: 2rem; /* ADDS PADDING INSIDE THE CONTAINER */
+  border-radius: 10px; /* ROUNDS THE CORNERS OF THE CONTAINER */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* ADDS A SOFT SHADOW AROUND THE CONTAINER */
+  text-align: center; /* CENTERS THE TEXT INSIDE THE CONTAINER */
+  width: 350px; /* SETS A FIXED WIDTH FOR THE CONTAINER */
+  margin: auto; /* CENTERS THE CONTAINER HORIZONTALLY */
+  margin-top: 5vh; /* ADDS SPACE FROM THE TOP BASED ON VIEWPORT HEIGHT */
+}
+
+.weather-form input {
+  padding: 0.5rem; /* ADDS PADDING INSIDE THE INPUT FIELD */
+  width: 70%; /* SETS INPUT FIELD WIDTH TO 70% OF PARENT */
+  margin-bottom: 1rem; /* ADDS SPACE BELOW THE INPUT FIELD */
+}
+
+.weather-form button {
+  padding: 0.5rem 1rem; /* ADDS VERTICAL AND HORIZONTAL PADDING TO THE BUTTON */
+  cursor: pointer; /* CHANGES CURSOR TO POINTER ON HOVER */
+  background-color: #ff5900db; /* SETS A BRIGHT ORANGE BACKGROUND COLOR */
+  color: white; /* SETS BUTTON TEXT COLOR TO WHITE */
+  border: none; /* REMOVES DEFAULT BUTTON BORDER */
+  border-radius: 5px; /* ROUNDS THE CORNERS OF THE BUTTON */
+}
+
+.weather-output {
+  margin-top: 1rem; /* ADDS SPACE ABOVE THE OUTPUT SECTION */
+  font-size: 1rem; /* SETS FONT SIZE */
+  color: #333; /* SETS TEXT COLOR TO DARK GRAY */
+  white-space: pre-line; /* PRESERVES LINE BREAKS IN TEXT */
+}
+
+.weather-output img {
+  margin-top: 0.5rem; /* ADDS SPACE ABOVE THE IMAGE */
+  width: 80px; /* SETS IMAGE WIDTH */
+  height: 80px; /* SETS IMAGE HEIGHT */
+}
+
+footer {
+  margin-top: 2rem; /* ADDS SPACE ABOVE THE FOOTER */
+}
